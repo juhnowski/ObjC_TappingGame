@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E90CC722098DEC000FDCFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CC712098DEC000FDCFCA /* AppDelegate.m */; };
+		7E90CC752098DEC000FDCFCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CC742098DEC000FDCFCA /* ViewController.m */; };
+		7E90CC782098DEC000FDCFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CC762098DEC000FDCFCA /* Main.storyboard */; };
+		7E90CC7A2098DEC100FDCFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CC792098DEC100FDCFCA /* Assets.xcassets */; };
+		7E90CC7D2098DEC100FDCFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E90CC7B2098DEC100FDCFCA /* LaunchScreen.storyboard */; };
+		7E90CC802098DEC100FDCFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CC7F2098DEC100FDCFCA /* main.m */; };
+		7E90CC8A2098DEC100FDCFCA /* TappingGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CC892098DEC100FDCFCA /* TappingGameTests.m */; };
+		7E90CC952098DEC100FDCFCA /* TappingGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90CC942098DEC100FDCFCA /* TappingGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E90CC862098DEC100FDCFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E90CC652098DEC000FDCFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E90CC6C2098DEC000FDCFCA;
+			remoteInfo = TappingGame;
+		};
+		7E90CC912098DEC100FDCFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E90CC652098DEC000FDCFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E90CC6C2098DEC000FDCFCA;
+			remoteInfo = TappingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E90CC6D2098DEC000FDCFCA /* TappingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TappingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90CC702098DEC000FDCFCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E90CC712098DEC000FDCFCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E90CC732098DEC000FDCFCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E90CC742098DEC000FDCFCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E90CC772098DEC000FDCFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E90CC792098DEC100FDCFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E90CC7C2098DEC100FDCFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E90CC7E2098DEC100FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90CC7F2098DEC100FDCFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E90CC852098DEC100FDCFCA /* TappingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90CC892098DEC100FDCFCA /* TappingGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TappingGameTests.m; sourceTree = "<group>"; };
+		7E90CC8B2098DEC100FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E90CC902098DEC100FDCFCA /* TappingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TappingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90CC942098DEC100FDCFCA /* TappingGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TappingGameUITests.m; sourceTree = "<group>"; };
+		7E90CC962098DEC100FDCFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E90CC6A2098DEC000FDCFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CC822098DEC100FDCFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CC8D2098DEC100FDCFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E90CC642098DEC000FDCFCA = {
+			isa = PBXGroup;
+			children = (
+				7E90CC6F2098DEC000FDCFCA /* TappingGame */,
+				7E90CC882098DEC100FDCFCA /* TappingGameTests */,
+				7E90CC932098DEC100FDCFCA /* TappingGameUITests */,
+				7E90CC6E2098DEC000FDCFCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E90CC6E2098DEC000FDCFCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E90CC6D2098DEC000FDCFCA /* TappingGame.app */,
+				7E90CC852098DEC100FDCFCA /* TappingGameTests.xctest */,
+				7E90CC902098DEC100FDCFCA /* TappingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E90CC6F2098DEC000FDCFCA /* TappingGame */ = {
+			isa = PBXGroup;
+			children = (
+				7E90CC702098DEC000FDCFCA /* AppDelegate.h */,
+				7E90CC712098DEC000FDCFCA /* AppDelegate.m */,
+				7E90CC732098DEC000FDCFCA /* ViewController.h */,
+				7E90CC742098DEC000FDCFCA /* ViewController.m */,
+				7E90CC762098DEC000FDCFCA /* Main.storyboard */,
+				7E90CC792098DEC100FDCFCA /* Assets.xcassets */,
+				7E90CC7B2098DEC100FDCFCA /* LaunchScreen.storyboard */,
+				7E90CC7E2098DEC100FDCFCA /* Info.plist */,
+				7E90CC7F2098DEC100FDCFCA /* main.m */,
+			);
+			path = TappingGame;
+			sourceTree = "<group>";
+		};
+		7E90CC882098DEC100FDCFCA /* TappingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E90CC892098DEC100FDCFCA /* TappingGameTests.m */,
+				7E90CC8B2098DEC100FDCFCA /* Info.plist */,
+			);
+			path = TappingGameTests;
+			sourceTree = "<group>";
+		};
+		7E90CC932098DEC100FDCFCA /* TappingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E90CC942098DEC100FDCFCA /* TappingGameUITests.m */,
+				7E90CC962098DEC100FDCFCA /* Info.plist */,
+			);
+			path = TappingGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E90CC6C2098DEC000FDCFCA /* TappingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90CC992098DEC100FDCFCA /* Build configuration list for PBXNativeTarget "TappingGame" */;
+			buildPhases = (
+				7E90CC692098DEC000FDCFCA /* Sources */,
+				7E90CC6A2098DEC000FDCFCA /* Frameworks */,
+				7E90CC6B2098DEC000FDCFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TappingGame;
+			productName = TappingGame;
+			productReference = 7E90CC6D2098DEC000FDCFCA /* TappingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E90CC842098DEC100FDCFCA /* TappingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90CC9C2098DEC100FDCFCA /* Build configuration list for PBXNativeTarget "TappingGameTests" */;
+			buildPhases = (
+				7E90CC812098DEC100FDCFCA /* Sources */,
+				7E90CC822098DEC100FDCFCA /* Frameworks */,
+				7E90CC832098DEC100FDCFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E90CC872098DEC100FDCFCA /* PBXTargetDependency */,
+			);
+			name = TappingGameTests;
+			productName = TappingGameTests;
+			productReference = 7E90CC852098DEC100FDCFCA /* TappingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E90CC8F2098DEC100FDCFCA /* TappingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E90CC9F2098DEC100FDCFCA /* Build configuration list for PBXNativeTarget "TappingGameUITests" */;
+			buildPhases = (
+				7E90CC8C2098DEC100FDCFCA /* Sources */,
+				7E90CC8D2098DEC100FDCFCA /* Frameworks */,
+				7E90CC8E2098DEC100FDCFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E90CC922098DEC100FDCFCA /* PBXTargetDependency */,
+			);
+			name = TappingGameUITests;
+			productName = TappingGameUITests;
+			productReference = 7E90CC902098DEC100FDCFCA /* TappingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E90CC652098DEC000FDCFCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SBT;
+				TargetAttributes = {
+					7E90CC6C2098DEC000FDCFCA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					7E90CC842098DEC100FDCFCA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7E90CC6C2098DEC000FDCFCA;
+					};
+					7E90CC8F2098DEC100FDCFCA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7E90CC6C2098DEC000FDCFCA;
+					};
+				};
+			};
+			buildConfigurationList = 7E90CC682098DEC000FDCFCA /* Build configuration list for PBXProject "TappingGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E90CC642098DEC000FDCFCA;
+			productRefGroup = 7E90CC6E2098DEC000FDCFCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E90CC6C2098DEC000FDCFCA /* TappingGame */,
+				7E90CC842098DEC100FDCFCA /* TappingGameTests */,
+				7E90CC8F2098DEC100FDCFCA /* TappingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E90CC6B2098DEC000FDCFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CC7D2098DEC100FDCFCA /* LaunchScreen.storyboard in Resources */,
+				7E90CC7A2098DEC100FDCFCA /* Assets.xcassets in Resources */,
+				7E90CC782098DEC000FDCFCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CC832098DEC100FDCFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CC8E2098DEC100FDCFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E90CC692098DEC000FDCFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CC752098DEC000FDCFCA /* ViewController.m in Sources */,
+				7E90CC802098DEC100FDCFCA /* main.m in Sources */,
+				7E90CC722098DEC000FDCFCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CC812098DEC100FDCFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CC8A2098DEC100FDCFCA /* TappingGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E90CC8C2098DEC100FDCFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E90CC952098DEC100FDCFCA /* TappingGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E90CC872098DEC100FDCFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E90CC6C2098DEC000FDCFCA /* TappingGame */;
+			targetProxy = 7E90CC862098DEC100FDCFCA /* PBXContainerItemProxy */;
+		};
+		7E90CC922098DEC100FDCFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E90CC6C2098DEC000FDCFCA /* TappingGame */;
+			targetProxy = 7E90CC912098DEC100FDCFCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E90CC762098DEC000FDCFCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E90CC772098DEC000FDCFCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E90CC7B2098DEC100FDCFCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E90CC7C2098DEC100FDCFCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E90CC972098DEC100FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E90CC982098DEC100FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E90CC9A2098DEC100FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = TappingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.TappingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E90CC9B2098DEC100FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = TappingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.TappingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E90CC9D2098DEC100FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = TappingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.TappingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TappingGame.app/TappingGame";
+			};
+			name = Debug;
+		};
+		7E90CC9E2098DEC100FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = TappingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.TappingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TappingGame.app/TappingGame";
+			};
+			name = Release;
+		};
+		7E90CCA02098DEC100FDCFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = TappingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.TappingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TappingGame;
+			};
+			name = Debug;
+		};
+		7E90CCA12098DEC100FDCFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKNT78S249;
+				INFOPLIST_FILE = TappingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.sberbank.TappingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TappingGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E90CC682098DEC000FDCFCA /* Build configuration list for PBXProject "TappingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CC972098DEC100FDCFCA /* Debug */,
+				7E90CC982098DEC100FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E90CC992098DEC100FDCFCA /* Build configuration list for PBXNativeTarget "TappingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CC9A2098DEC100FDCFCA /* Debug */,
+				7E90CC9B2098DEC100FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E90CC9C2098DEC100FDCFCA /* Build configuration list for PBXNativeTarget "TappingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CC9D2098DEC100FDCFCA /* Debug */,
+				7E90CC9E2098DEC100FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E90CC9F2098DEC100FDCFCA /* Build configuration list for PBXNativeTarget "TappingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E90CCA02098DEC100FDCFCA /* Debug */,
+				7E90CCA12098DEC100FDCFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E90CC652098DEC000FDCFCA /* Project object */;
+}
